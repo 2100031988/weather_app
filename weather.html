@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App - Display</title>
+  <link rel="stylesheet" href="weather_style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Weather dashboard</h1>
+  </div>
+  <div class="container">
+    <section class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h2 id="city-name">City Name (Country)</h2>
+          <img src="" alt="Weather Icon" id="weather-image">
+          <h6 id="temperature">Temperature: --°C</h6>
+          <h6 id="wind">Wind: -- M/S</h6>
+          <h6 id="humidity">Humidity: --%</h6>
+        </div>
+      </div>
+
+      <div class="days-forecast">
+        <h2 class="forecast-title">5-Day Forecast</h2>
+        <div class="weather-cards" id="weather-cards">
+
+        </div>
+      </div>
+
+      <br><br>
+      <div class="air-quality">
+        <h3 class="section-title">Air Quality and UV Index</h3>
+        <div id="air-quality-map" class="left-align" style="height: 400px; width: 500px"></div>
+        <p id="air-quality-index">--</p>
+
+      </div>
+
+      <div class="uv-index card">
+        <canvas id="uv-index-chart" width="200" height="100"></canvas><br><br>
+
+        <p id="uv-index-value">--</p>
+        <p id="uv-index-level">UV Index Level: --</p>
+        <p id="uv-index-recommendation">Recommendation: --</p>
+      </div>
+    </section>
+  </div>
+  <script src="weatherScript.js" defer></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

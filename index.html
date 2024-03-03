@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App - Input</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Weather Vista</h1>
+</div>
+
+<div class="weather-input">
+    <div class="circle"></div>
+    <div class="border-top"></div>
+    <div class="border-left"></div>
+    <div class="border-right"></div>
+    <div class="border-bottom"></div>
+
+    <h2>Explore weather forecast</h2>
+
+    <input class="city-input" type="text" placeholder="Enter City or State" style="text-transform: uppercase;
+     border-bottom: 3px solid #1976d2; padding: 13px 15px; font-size: 18px;
+    background-color: transparent; outline: none; color: #333333; margin-bottom: 30px; margin-left: 5px;"/>
+
+    <button class="search-btn"><i class="fas fa-search icon"></i>Get Weather</button>
+    <hr style="border: none; height: 1px; background-color: #ccc; margin: 20px 0; ">
+    <button class="location-btn"><i class="fas fa-map-marker-alt icon"></i>Use My Location</button>
+    <div class="additional-info">
+        <div class="info-item">
+            <i class="fas fa-thermometer-half info-icon"></i>
+            <span class="info-label">Temperature</span>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-tint info-icon"></i>
+            <span class="info-label">Humidity</span>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-wind info-icon"></i>
+            <span class="info-label">Wind</span>
+        </div>
+    </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
