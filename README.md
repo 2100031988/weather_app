@@ -25,7 +25,7 @@ The Weather App is a web application developed using HTML, CSS, and JavaScript. 
    git clone https://github.com/yourusername/weather-app.git
 
 2. **Navigate to the project directory:**
-   '''bash
+   ```bash
    cd weather-app
 
 3. **Open the index.html file in your web browser to view the Weather App locally.**
