@@ -16,7 +16,7 @@ The Weather App is a web application developed using HTML, CSS, and JavaScript. 
 
 ### Prerequisites
 
-- Web browser (e.g., Google Chrome, Mozilla Firefox)
+- Web browser (PyCharm)
 
 ### Installation
 
