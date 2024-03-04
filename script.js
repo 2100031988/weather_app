@@ -2,7 +2,7 @@ const cityInput = document.querySelector(".city-input");
   const searchButton = document.querySelector(".search-btn");
   const locationButton = document.querySelector(".location-btn");
 
-  const API_KEY = "5903dcf99ad560d06cb1229a0091b272";
+  const API_KEY = "your_api_key";
 
   const getWeatherDetails = (cityName, latitude, longitude) => {
       // Redirect to weather.html with query parameters
