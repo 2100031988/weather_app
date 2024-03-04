@@ -1,4 +1,4 @@
-const API_KEY = "5903dcf99ad560d06cb1229a0091b272";
+const API_KEY = "your_api_key";
 
 window.onload = () => {
     // Retrieve query parameters from URL
